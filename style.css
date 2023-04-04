@@ -1,0 +1,107 @@
+body {
+	background-color: rgb(153, 183, 196);
+	color: rgb(30, 30, 30);
+	font-family: 'Play', sans-serif;
+
+}
+
+h1 {
+    color: Black;
+    font-family: 'Rowdies', cursive;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-size: 50px;
+
+
+}
+p {
+	font-size: 30px;
+
+ }
+
+h2 {
+	font-size: 40px;
+	color:rgb(25, 25, 112);
+	font-family: 'Rowdies', cursive;
+
+
+
+}
+
+a {
+	font-size: 30px;
+	text-decoration: none;
+	color:black;
+}
+a:hover {
+	color:skyblue;
+}
+
+/* Custom design with class */
+
+
+
+.container {
+	width: 1000px;
+	margin: 80px auto;
+	text-align: center;
+}
+
+@media (max-width:760px ) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width:500px ) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: blueviolet;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: rgb(153, 183, 196);
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	letter-spacing: 30px;
+	color: rgb 230, 230, 230;
+}
+
+.list-inline i:hover {
+	color: rgb(153, 183, 196);
+}
